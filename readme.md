@@ -9,9 +9,9 @@ The example contains 3 maven modules:
 * quiz-app
 
 The `quiz-api` contains the backend API and the `quiz-ui` contains
-the Javascript based frontend. Both modules are pulled in as a dependency by `acme-example-app`.
+the Javascript based frontend. Both modules are pulled in as a dependency by `quiz-app`.
 
-The `acme-example-ui` maven module uses the `com.github.eirslett:frontend-maven-plugin`
+The `quiz-ui` maven module uses the `com.github.eirslett:frontend-maven-plugin`
 to delegate to the yarn / node tooling during the maven build process. 
 
 As a build tool we use `yarn` which delegates to the [parceljs](https://parceljs.org/) web-application bundler.
